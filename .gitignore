@@ -1,1 +1,7 @@
-lives.ci.austin.tx.us.zip
+# Do not actually include the datasets in the GIT archive.
+# Those are produced by other means.
+
+*.zip
+*.tar
+*.gz
+
