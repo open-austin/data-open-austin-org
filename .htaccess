@@ -1,5 +1,16 @@
 IndexOptions FancyIndexing
+
 AddDescription "LIVES data feed of restaurant inspection scores" lives.ci.austin.tx.us.zip
+
 HeaderName HEADER.html
 ReadmeName FOOTER.html
 IndexIgnore HEADER.html FOOTER.html
+
+<Files .gitignore>
+  Deny from all
+</Files>
+
+<Files .git.htaccess>
+  Deny from all
+</Files>
+
