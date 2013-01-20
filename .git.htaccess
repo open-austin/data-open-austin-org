@@ -1,0 +1,6 @@
+# This file prevents web access to the GIT contents.
+# To activate this, must run:
+# ln -s ../.git.htaccess .git/.htaccess
+
+Order allow,deny
+Deny from all
