@@ -1,10 +1,11 @@
 IndexOptions FancyIndexing
 
 AddDescription "LIVES data feed of restaurant inspection scores" lives.ci.austin.tx.us.zip
+AddDescription "Dumps of metadata for datasets published at data.austintexas.gov" data-catalogs
 
 HeaderName HEADER.html
 ReadmeName FOOTER.html
-IndexIgnore HEADER.html FOOTER.html
+IndexIgnore HEADER.html FOOTER.html robots.txt
 
 <Files .gitignore>
   Deny from all
