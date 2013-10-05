@@ -2,6 +2,7 @@ IndexOptions FancyIndexing
 
 AddDescription "LIVES data feed of restaurant inspection scores" lives.ci.austin.tx.us.zip
 AddDescription "Dumps of metadata for datasets published at data.austintexas.gov" data-catalogs
+AddDescription "Travis County elected officials dataset" TC_elected_officials_2012
 
 HeaderName HEADER.html
 ReadmeName FOOTER.html
