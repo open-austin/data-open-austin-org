@@ -6,3 +6,7 @@
 *.gz
 *.json
 
+# The data-catalog/views directory is in source control here:
+# https://github.com/chip-rosenthal/pull-data-portal-catalog/tree/master/public
+data-catalogs/views
+
