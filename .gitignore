@@ -1,12 +1,22 @@
-# Do not actually include the datasets in the GIT archive.
-# Those are produced by other means.
+# Bits are excluded from the source repo because either:
+# * They are generated periodically, but processes that run on the server.
+# * They are part of another project, linked into the data portal.
 
-*.zip
-*.tar
-*.gz
-*.json
+###
+# The LIVES data feed is generated nightly.
+# Source for the generator is here:
+# https://github.com/chip-rosenthal/atx-lives-feed
 
-# The data-catalog/views directory is in source control here:
-# https://github.com/chip-rosenthal/pull-data-portal-catalog/tree/master/public
+LIVES/lives.ci.austin.tx.us.zip
+
+###
+# The data-catalogs datasets are updated nightly.
+# Source for the project is here:
+# https://github.com/open-austin/pull-data-portal-catalog
+
+data-catalogs/data
 data-catalogs/views
+data-catalogs/catalog-data_austintexas_gov-LATEST.json.gz
+data-catalogs/summary-data_austintexas_gov-LATEST.json
+
 
