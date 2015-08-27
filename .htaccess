@@ -2,11 +2,11 @@ IndexOptions FancyIndexing
 
 AddDescription "Dataset of Open Austin civic/hack projects" Civic_Project
 AddDescription "We release our work into the public domain" LICENSE
+AddDescription "LIVES data feed of restaurant inspection scores" LIVES
 AddDescription "US Census blocks for Travis County" TC_census_blocks
 AddDescription "Travis County elected officials dataset" TC_elected_officials_2012
 AddDescription "Dumps of metadata for datasets published at data.austintexas.gov -- updated nightly" data-catalogs
 AddDescription "Nov 2014 City of Austin election candidates dataset" election_2014_11
-AddDescription "LIVES data feed of restaurant inspection scores" lives.ci.austin.tx.us.zip
 
 HeaderName HEADER.html
 ReadmeName README.txt
