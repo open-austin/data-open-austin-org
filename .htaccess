@@ -9,8 +9,8 @@ AddDescription "Nov 2014 City of Austin election candidates dataset" election_20
 AddDescription "LIVES data feed of restaurant inspection scores" lives.ci.austin.tx.us.zip
 
 HeaderName HEADER.html
-ReadmeName FOOTER.html
-IndexIgnore HEADER.html FOOTER.html robots.txt
+ReadmeName README.txt
+IndexIgnore HEADER.html README.txt robots.txt
 
 <Files .gitignore>
   Deny from all
